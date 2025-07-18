@@ -1,40 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Desafio Front-End
 
-## Getting Started
+Este projeto foi criado para realizar os exercícios referentes ao curso de front-end, utilizando **React** e **Bootstrap**. O objetivo é praticar conceitos modernos de desenvolvimento web, compondo interfaces responsivas e dinâmicas.
 
-First, run the development server:
+## Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org)
+- [React](https://react.dev)
+- [Bootstrap](https://getbootstrap.com)
+- [Geist Font](https://vercel.com/font)
+
+## Pré-requisitos
+
+Certifique-se de ter instalado em sua máquina:
+
+- [Node.js](https://nodejs.org/) (versão recomendada: 18.x ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/) ou [pnpm](https://pnpm.io/) ou [bun](https://bun.sh/)
+
+## Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu-usuario/desafio-front.git
+cd desafio-front
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+```
+
+## Rodando a Aplicação
+
+Para iniciar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Estrutura do Projeto
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- `pages/` - Páginas da aplicação
+- `components/` - Componentes reutilizáveis
+- `public/` - Arquivos estáticos
+- `styles/` - Estilos globais e específicos
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Exercícios
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Os exercícios do curso estão organizados em páginas e componentes, facilitando o estudo e a navegação.
 
-## Learn More
+## Customização
 
-To learn more about Next.js, take a look at the following resources:
+Você pode editar `pages/index.js` para começar a modificar a página principal. O projeto utiliza hot-reload, então as alterações aparecem automaticamente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A maneira mais fácil de publicar este projeto é utilizando o [Vercel](https://vercel.com/). Consulte a [documentação de deploy do Next.js](https://nextjs.org/docs/pages/building-your-application/deploying) para mais detalhes.
 
-## Deploy on Vercel
+## Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sinta-se à vontade para abrir issues ou pull requests com sugestões, correções ou melhorias.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Licença
+
+Este projeto é apenas para fins educacionais.
